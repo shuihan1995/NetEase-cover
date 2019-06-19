@@ -21,5 +21,4 @@ export default {
 <style lang="stylus" rel="stylesheet/stylus" scoped>
 .msite
   width 750px
-  height 30000px
 </style>

@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import FooterGuide from './components/FooterGuide/FooterGuide.vue'
+import EightOfMSite from './components/EightOfMSite/EightOfMSite.vue'
 import Split from './components/Split/Split.vue'
 import router from './router'
 import 'lib-flexible/flexible.js'
@@ -8,6 +9,7 @@ import 'lib-flexible/flexible.js'
 Vue.config.productionTip = false
 
 Vue.component('FooterGuide', FooterGuide)
+Vue.component('EightOfMSite', EightOfMSite)
 Vue.component('Split', Split)
 
 new Vue({
